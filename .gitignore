@@ -1,0 +1,7 @@
+**/node_modules/
+**/.idea
+**scandipwa-base/
+**/console.log
+**/.DS_Store
+**/.env
+**/.eslintrc.js
