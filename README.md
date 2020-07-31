@@ -76,9 +76,6 @@ dcf pull
 dcf up -d
 ```
 
-#### The stock item was unable to be saved
-- Stop docker containers and restart the script in dev mode
-
 #### SSL container is dead
 - Check if scandipwa-base/opt/cert/ is not empty
 - Remove .env from autoscandipwa folder
