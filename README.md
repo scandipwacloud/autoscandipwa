@@ -67,9 +67,6 @@ dcf pull
 dcf up -d
 ```
 
-#### The stock item was unable to be saved
-- Stop docker containers and restart the script in dev mode
-
 ### Other important information
 #### Stop demo
 
