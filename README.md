@@ -37,6 +37,16 @@ All others OS should be tested!
 
 ### FAQ
 
+#### Database migration failed: manual action required / magento: command not found
+To solve that problem you need you to run the migration again:
+```
+docker ps | grep mysql
+docker cp deploy/latest.sql <CONTAINER ID>:/tmp/dump.sql
+docker-compose exec mysql bash
+mysql -u root -pscandipwa -e "DROP DATABASE magento; CREATE DATABASE magento;"
+mysql -u root -pscandipwa magento < /tmp/dump.sql
+```
+
 #### SSL certificates
 If scandipwa.local website is not trusted by default, then please:
 1. Import the scandipwa-base/opt/cert/scandipwa-fullchain.pem
