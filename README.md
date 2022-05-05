@@ -1,3 +1,6 @@
+# DEPRECATED
+# Use [Create Magento App](https://github.com/scandipwa/create-magento-app) and [Create ScandiPWA App](https://github.com/scandipwa/create-scandipwa-app)
+
 # Welcome to automatization manual
 
 ### System supported:
